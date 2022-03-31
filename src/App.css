@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(15, 14, 14);
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  list-style: none;
+  display: inline-block;
+  padding: 20px
+}
+
+a {
+  text-decoration: none;
+}
+
+.con {
+  float: right;
+}
+
+/* =================footer=========================== */
+/* html,
+body {
+  height: 100%;
+} */
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+.foterbody {
+  width: 100%;
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+/* =================footer=========================== */
